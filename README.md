@@ -6,7 +6,7 @@ Designed and deployed a production-ready multi-tier VPC on AWS following securit
 ## Architecture Components
 
 ### Network Design
-- **VPC**: Custom VPC (10.0.0.0/16) spanning 2 Availability Zones for high availability
+- **VPC**: Custom VPC (10.0.0.0/16) spanning 3 Availability Zones for high availability
 - **Public Subnets**: Host NAT Gateway and Internet-facing resources
 - **Private Subnets**: Host application servers and databases with no direct internet access
 
